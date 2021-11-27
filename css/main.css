@@ -2436,6 +2436,11 @@ body {
   display: flex;
 }
 
+.addtocart__left__wrap__wrapper__text {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
