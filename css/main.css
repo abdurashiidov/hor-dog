@@ -2478,6 +2478,8 @@ body {
   border-radius: 100px;
   width: 90px;
   padding: 8px 12px 8px 12px;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 html {
