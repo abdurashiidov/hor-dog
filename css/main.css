@@ -2522,6 +2522,7 @@ body {
           flex-direction: column;
   -ms-flex-item-align: center;
       align-self: center;
+  text-align: right;
 }
 
 .addtocart__wrap-cost1 {
@@ -2543,13 +2544,10 @@ body {
   padding: 0;
   font-family: "Nunito", "Arial", sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #1A1A1A;
-  margin-bottom: 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F44336;
 }
 
 html {
