@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>HorDog</title>
+</head>
+<body>
+<!-- header start -->
+<section class="section">
+    <div class="container">
+        <header class="header">
+           <a  href="./index.html"><img class="header__image" src="./image/header-logo.svg" width="191" height="72" alt="home-logo-dog"></a> 
+            <div class="header__input">
+                <input class="header__input-search" type="text" placeholder="Поиск">
+                <a class="header-search" href=""><img class="header__input-image" src="./image/header-Search.svg" width="16" height="16" alt="Search"></a>
+            </div>
+
+            <div class="header__icon">
+              <a href="#"> <img class="header-atribut-shop" src="./image/header-icon-favorites.svg" alt=""></a>
+              <a href="#"> <img class="header-atribut-like" src="./image/header-icon-cart.svg" alt=""></a>
+                      <button class="btn" data-target="#modal1"><img class="regist-button-img" src="./image/header-dog-icon.svg" width="22" height="20"  alt="header-dog-icon"></button>
+                </div>
+                  <!-- Modal -->
+                  <div class="regist-modal " id="modal1">
+                    <div class="regist-modal--header">
+                        <p class="regist-modal--header_padding">Регистрация</p>
+                        <button class="regist-modal--header-close" data-target="#modal1"> <img src="./image/Close.svg" width="17" height="20" alt=""></button>
+                    </div>
+                    <div class="regist-modal--body">
+                          <input class="regist-modal--body-email" type="email" placeholder="Email">
+                          <input class="regist-modal--body-paswoord" type="password" placeholder="Пароль">
+                        </div>
+                        <p class="regist-modal--body-padding">
+                          Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.
+                        </p>
+                          <button type="button" class="regist-modal--body-regist" data-bs-dismiss="modal">Зарегистрироваться</button>
+                          <button type="button" class="regist-modal--body-next" data-bs-dismiss="modal" aria-label="Close">Войти</button>
+                    </div>
+                <img class="header-menu" src="./image/Menu.svg" width="25" height="15" alt="Menu">
+            </div>
+
+        </header>
+
+    </div>
+</section>
+<div class="m-modal">
+  <div class="container">
+    <div class="close-modal">
+      <img class="close-modal-x" width="14" height="14" src="./image/Close.svg" alt="Close">  
+      <button class="close-modal-x--button">
+        Войти
+      </button>
+    </div>
+      <ul class="close-modal-item">
+        <li class="close-modal-item--list">
+          <a class="close-modal-item--list--atribut" href="#">
+            Каталог
+          </a>
+        </li>
+        <li class="close-modal-item--list">
+          <a class="close-modal-item--list--atribut1" href="#">
+            Избранное
+          </a>
+        </li>
+        <li class="close-modal-item--list">
+          <a class="close-modal-item--list--atribut2" href="#">
+            Акции
+          </a>
+        </li>
+        <li class="close-modal-item--list">
+          <a class="close-modal-item--list--atribut3" href="#">
+            Новости
+          </a>
+        </li>
+        <li class="close-modal-item--list">
+          <a class="close-modal-item--list--atribut4" href="#">
+            Отзывы
+          </a>
+        </li>
+      </ul>
+
+
+      <hr class="headering">
+
+      <ul class="item-about">
+        <li class="item-about-list">
+          <a class="item-about-list-atribut" href="#">Оплата и доставка</a>
+        </li>
+        <li class="item-about-list">
+          <a class="item-about-list-atribut" href="#">Часто спрашивают</a>
+        </li>
+        <li class="item-about-list">
+          <a class="item-about-list-atribut" href="#">Обратная связь</a>
+        </li>
+        <li class="item-about-list">
+          <a class="item-about-list-atribut" href="#">Контакты</a>
+        </li>
+      </ul>
+      <hr class="headerings">
+
+      <div class="help">
+        <p class="help-padding">
+          Остались вопросы?
+        </p>
+        <span class="help-spanner">
+          Обратитесь в нашу службу поддержки
+        </span>
+        <button class="help-buttons">
+          Перейти
+        </button>
+      </div>
+  </div>  
+
+
+</div>
+
+<!-- header end -->
+
+
+
+<!-- main start -->
+  <section class="section0">
+    <div class="container">
+      <main class="main">
+
+
+
+        <div class="addtocart">
+          
+        </div>
+
+
+
+      </main>
+    </div>
+  </section>
+  <!-- main end -->
+
+
+
+  <!-- footer start -->
+  <section class="section1">
+    <div class="container">
+      <footer class="footer">
+      <div class="footer-logo">
+        <img class="footer-logo--image" src="./image/header-logo.svg" width="180" height="68" 
+        alt="logo-footer">
+        <p class="footer-logo--padding">© «Интернет-магазин натуральных лакомств для собак HorDog.ru»</p>
+      </div>
+
+      <ul class="item">
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Каталог</a></li>
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Акции</a></li>
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Новости</a></li>
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Отзывы</a></li>
+      </ul>
+      <ul class="item">
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Оплата и доставка</a></li>
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Часто спрашивают</a></li>
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Обратная связь</a></li>
+        <li class="item-list"><a class="item-list-atirbut" href="#"> Контакты</a></li>
+      </ul>
+        <div class="footer-messege">
+          <p class="footer-messege--padding">Мы на связи</p>
+          <address class="address">
+            <a class="address-number" href="tel:+8 (917) 717-21-79">+8 (917) 717-21-79</a>
+            <a class="address-mail" href="mailto:hordog.ru@gmail.com">hordog.ru@gmail.com</a>
+          </address>
+          <div class="footer-messege-local">
+            <a href="#"><img class="footer-messege-local-image" src="./image/telegram.svg" width="24" height="24" alt="telegram icon"></a>
+           <a href="#"> <img class="footer-messege-local-image"  src="./image/whatsapp.svg" width="24" height="24" alt="whatsapp icon"></a>
+           <a href="#"> <img class="footer-messege-local-image"  src="./image/imo.svg" width="24" height="24" alt="imo icon"></a>
+          <a href="#">  <img class="footer-messege-local-image"   src="./image/instagram.svg" width="24" height="24" alt="telegram icon"></a>
+            <a href="#"><img class="footer-messege-local-image"  src="./image/logo-vk.svg" width="24" height="24" alt="telegram icon"></a>  
+          </div>
+          <p class="footer-logo--padding1">© «Интернет-магазин натуральных лакомств для собак HorDog.ru»</p>
+        </div>
+    </div>
+  </footer>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<nav class="nav">
+  <a href="#" class="nav__link">
+    <i class="material-icons nav__icon"><img src="./image/Home.svg" alt=""></i>
+    <span class="nav__text">Главная</span>
+  </a>
+  <a href="#" class="nav__link nav__link--active">
+    <i class="material-icons nav__icon"><img src="./image/Catalog.svg" alt=""></i>
+    <span class="nav__text">Каталог</span>
+  </a>
+  <a href="#" class="nav__link">
+    <i class="material-icons nav__icon"><img src="./image/Cart.svg" alt=""></i>
+    <span class="nav__text">Главная</span>
+  </a>
+  <a href="#" class="nav__link">
+    <i class="material-icons nav__icon"><img src="./image/Favorites.svg" alt=""></i>
+    <span class="nav__text">Избранное</span>
+  </a>
+  <a href="#" class="nav__link">
+    <i class="material-icons nav__icon"><button class="btn" data-target="#modal1"><img class="regist-button-img" src="./image/header-dog-icon.svg" width="22" height="20"  alt="header-dog-icon"></button></i>
+    <span class="nav__text">Профиль</span>
+  </a>
+</nav>
+  </section>
+  <!-- footer end -->
+  <div  id="overlay">
+            
+  </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
