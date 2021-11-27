@@ -2535,6 +2535,7 @@ body {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
   color: #1A1A1A;
+  margin-bottom: 0;
 }
 
 html {
