@@ -2482,6 +2482,12 @@ body {
       align-self: center;
 }
 
+.addtocart__calculation__img-minus {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
