@@ -2405,6 +2405,7 @@ body {
   display: flex;
   padding-top: 17px;
   padding-bottom: 17px;
+  margin-right: 200px;
 }
 
 .addtocart__left__img {
@@ -2494,8 +2495,8 @@ body {
 .addtocart__calculation__text {
   margin: 0;
   padding: 0;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
   font-family: "Nunito", "Arial", sans-serif;
   font-style: normal;
   font-weight: 800;
