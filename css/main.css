@@ -2476,7 +2476,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 100px;
-  width: 90px;
+  padding: 8px 12px 8px 12px;
   -ms-flex-item-align: center;
       align-self: center;
 }
@@ -2485,6 +2485,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding-left: 12px;
 }
 
 .addtocart__calculation__text {
@@ -2504,7 +2505,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-right: 12px;
+  padding-right: 12px;
 }
 
 html {

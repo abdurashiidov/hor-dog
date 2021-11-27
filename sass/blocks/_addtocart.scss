@@ -64,12 +64,13 @@
         border: 1px solid #CFD8DC;
         box-sizing: border-box;
         border-radius: 100px;
-        width: 90px;
-        // padding: 8px 12px 8px 12px;
+        // max-width: 90px;
+        padding: 8px 12px 8px 12px;
         align-self: center;
 
         &__img-minus{
             align-self: center;
+            padding-left: 12px;
         }
 
         &__text{
@@ -87,7 +88,7 @@
 
         &__img-plus{
             align-self: center;
-            margin-right: 12px;
+            padding-right: 12px;
         }
 
     }
