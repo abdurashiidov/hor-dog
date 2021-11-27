@@ -2550,6 +2550,10 @@ body {
   color: #F44336;
 }
 
+.addtocart__btn {
+  padding: 10px 18px;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
