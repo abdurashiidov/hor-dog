@@ -150,5 +150,9 @@
         line-height: 20px;
         color: #1A1A1A;
         margin-left: 52px;
+
+        &:hover{
+            box-shadow: 0 0 5px 5px #e49893;
+        }
     }
 } //end
