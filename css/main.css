@@ -2559,15 +2559,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 18px;
   position: static;
-  width: 190px;
+  max-width: 200px;
   left: calc(50% - 190px/2 + 401px);
   top: 29.17%;
   bottom: 29.17%;
@@ -2576,7 +2576,7 @@ body {
   -ms-flex-item-align: center;
       align-self: center;
   border: none;
-  font-family: Nunito;
+  font-family: "Nunito", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
