@@ -17,6 +17,22 @@
         &__wrap{
             display: flex;
             flex-direction: column;
+
+            &__text{
+                margin: 0;
+                padding: 0;
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 20px;
+                /* identical to box height, or 125% */
+
+
+                /* Text/Main Text */
+
+                color: #1A1A1A;
+            }
         }
     }
 }
