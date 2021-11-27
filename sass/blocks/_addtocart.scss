@@ -72,5 +72,12 @@
             align-self: center;
         }
 
+        &__text{
+            margin: 0;
+            padding: 0;
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+
     }
 }
