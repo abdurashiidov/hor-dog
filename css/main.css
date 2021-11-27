@@ -2469,11 +2469,15 @@ body {
 }
 
 .addtocart__calculation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: 1px solid #CFD8DC;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 100px;
   width: 90px;
+  padding: 8px 12px 8px 12px;
 }
 
 html {
