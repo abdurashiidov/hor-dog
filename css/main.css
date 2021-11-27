@@ -2594,6 +2594,12 @@ body {
   transition: 0.5s;
 }
 
+.addtocart__btn:active {
+  opacity: 0.7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
