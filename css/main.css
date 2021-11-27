@@ -2485,7 +2485,6 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding-left: 12px;
 }
 
 .addtocart__calculation__text {
@@ -2505,7 +2504,6 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding-right: 12px;
 }
 
 html {
