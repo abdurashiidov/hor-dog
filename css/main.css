@@ -2491,6 +2491,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  cursor: pointer;
 }
 
 .addtocart__calculation__text {
@@ -2588,6 +2589,8 @@ body {
 .addtocart__btn:hover {
   -webkit-box-shadow: 0 0 5px 5px #e49893;
           box-shadow: 0 0 5px 5px #e49893;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 html {

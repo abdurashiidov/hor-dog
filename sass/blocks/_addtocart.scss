@@ -74,6 +74,7 @@
         &__img-minus{
             align-self: center;
             // padding-left: 12px;
+            cursor: pointer;
         }
 
         &__text{
@@ -153,6 +154,7 @@
 
         &:hover{
             box-shadow: 0 0 5px 5px #e49893;
+            transition: 0.5s;
         }
     }
 } //end
