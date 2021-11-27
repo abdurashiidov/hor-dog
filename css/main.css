@@ -2430,6 +2430,12 @@ body {
   color: #1A1A1A;
 }
 
+.addtocart__left__wrap__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
