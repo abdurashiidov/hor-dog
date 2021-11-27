@@ -13,5 +13,10 @@
         &__img{
             align-self: center;
         }
+
+        &__wrap{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
