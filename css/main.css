@@ -2501,6 +2501,12 @@ body {
   color: #1A1A1A;
 }
 
+.addtocart__calculation__img-plus {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
