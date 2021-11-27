@@ -2538,6 +2538,20 @@ body {
   margin-bottom: 0;
 }
 
+.addtocart__wrap-cost2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #1A1A1A;
+  margin-bottom: 0;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
