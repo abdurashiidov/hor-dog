@@ -2575,6 +2575,7 @@ body {
   border-radius: 55px;
   -ms-flex-item-align: center;
       align-self: center;
+  border: none;
 }
 
 html {
