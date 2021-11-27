@@ -2468,6 +2468,13 @@ body {
       align-self: center;
 }
 
+.addtocart__calculation {
+  border: 1px solid #CFD8DC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
